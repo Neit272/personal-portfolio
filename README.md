@@ -1,5 +1,7 @@
 # Personal Portfolio
 
+**Live Demo:** [https://trtieens-personal-portfolio.vercel.app/](https://trtieens-personal-portfolio.vercel.app/)
+
 This is a personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion. It showcases my personal info, resume, skills, projects, and provides a contact form.
 
 ## Technologies Used
