@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Tran Huynh Tien",
-  title: "Information Security Student / Frontend Developer",
+  title: "Information Security Student \n Frontend Developer",
   avatar: "/images/avatar.jpg",
   intro: "An Information Security student with a strong passion for web development. I love building web applications focusing on smooth user experiences, optimal performance, and robust data management systems.",
   dob: "February 27, 2004", 
