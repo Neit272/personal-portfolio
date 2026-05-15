@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Tran Huynh Tien",
-  title: "Information Security Student \n Frontend Developer",
+  title: "Information Security Student\nDeveloper",
   avatar: "/images/avatar.jpg",
   intro: "An Information Security student with a strong passion for web development. I love building web applications focusing on smooth user experiences, optimal performance, and robust data management systems.",
   dob: "February 27, 2004", 
@@ -8,7 +8,7 @@ export const personalInfo = {
   address: "Thu Duc, Ho Chi Minh City",
   email: "tranhuynhtien.work@gmail.com",
   phone: "(+84) 767533227",
-  objective: "To become a comprehensive Frontend Developer by leveraging my knowledge of cybersecurity and software engineering to construct practical products that deliver significant value to users.",
+  objective: "To become a comprehensive Developer by leveraging my knowledge of cybersecurity and software engineering to construct practical products that deliver significant value to users.",
   github: "https://github.com/Neit272",
   linkedin: "https://www.linkedin.com/in/trtieens/",
 };
