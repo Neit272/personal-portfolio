@@ -24,22 +24,13 @@ export function Skills() {
               {technicalCategories.map((category) => (
                 <div key={category} className="space-y-4">
                   <h3 className="text-lg font-medium text-primary">{category}</h3>
-                  <div className="space-y-4">
+                  <div className="flex flex-wrap gap-3">
                     {skills.technical
                       .filter((s) => s.category === category)
                       .map((skill) => (
-                        <div key={skill.name} className="space-y-2">
-                          <div className="flex justify-between text-sm font-medium">
-                            <span>{skill.name}</span>
-                            <span className="text-muted-foreground">{skill.level}%</span>
-                          </div>
-                          <div className="h-2 w-full bg-muted rounded-full overflow-hidden">
-                            <div
-                              className="h-full bg-primary rounded-full transition-all duration-1000 ease-out"
-                              style={{ width: `${skill.level}%` }}
-                            />
-                          </div>
-                        </div>
+                        <span key={skill.name} className="px-3 py-1.5 bg-card border border-border rounded-lg text-sm font-medium shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300">
+                          {skill.name}
+                        </span>
                       ))}
                   </div>
                 </div>
