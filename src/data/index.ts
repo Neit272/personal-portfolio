@@ -60,6 +60,13 @@ export const skills = {
     "Problem Solving",
     "Self-learning",
     "Systems Thinking",
+    "Critical Thinking",
+    "Attention to Detail",
+    "Team Collaboration",
+    "Effective Communication",
+    "Adaptability",
+    "Analytical Skills",
+    "Ethical Mindset"
   ],
   languages: [
     { name: "English", proficiency: "Comprehensive reading and writing skills" },
