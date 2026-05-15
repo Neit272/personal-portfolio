@@ -25,6 +25,13 @@ export const education = [
 
 export const experience = [
   {
+    id: 2,
+    company: "Công ty TNHH GENX PK STORY",
+    role: "Frontend Developer Intern",
+    period: "Mar 2026 - May 2026",
+    description: "Focused exclusively on frontend development, building and maintaining responsive user interfaces. Translated UI/UX designs from Figma into high-quality, reusable components using React and Tailwind CSS. Ensured cross-browser compatibility, implemented fluid CSS animations, and contributed to optimizing client-side performance and writing clean, maintainable UI code.",
+  },
+  {
     id: 1,
     company: "Công ty TNHH Cơ Khí Tín Đạt",
     role: "Freelance Fullstack Developer",
