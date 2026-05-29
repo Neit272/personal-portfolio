@@ -49,7 +49,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
         </div>
 
         <div className="flex items-center gap-3 pt-4 border-t border-border mt-auto">
-          {project.github && (
+          {project.github ? (
             <a
               href={project.github}
               target="_blank"
@@ -59,6 +59,14 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
               <Github size={16} />
               Code
             </a>
+          ) : (
+            <span
+              className="flex items-center gap-1.5 text-sm font-medium text-muted-foreground opacity-50 cursor-not-allowed"
+              title="Nguồn không công khai"
+            >
+              <Github size={16} />
+              Code
+            </span>
           )}
           {project.demo ? (
             <a

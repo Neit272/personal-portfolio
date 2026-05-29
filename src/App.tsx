@@ -14,7 +14,6 @@ function AnimatedRoutes() {
 
   return (
     <AnimatePresence mode="wait">
-      {/* @ts-expect-error - React Router v6 Routes doesn't explicitly type the key prop, but it's valid React */}
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />

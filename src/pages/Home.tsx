@@ -12,10 +12,10 @@ export function Home() {
             <h2 className="text-xl md:text-2xl font-medium text-primary">
               Hello, I'm
             </h2>
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
+            <h1 className="text-[clamp(2rem,6vw,4rem)] font-bold tracking-tight text-foreground whitespace-nowrap">
               {personalInfo.name}
             </h1>
-            <h3 className="text-2xl md:text-3xl font-semibold text-muted-foreground whitespace-pre-line">
+            <h3 className="text-[clamp(1.2rem,4vw,2.25rem)] font-semibold text-muted-foreground whitespace-pre leading-snug">
               {personalInfo.title}
             </h3>
           </div>

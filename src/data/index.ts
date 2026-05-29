@@ -88,7 +88,7 @@ export const projects = [
     description: "Built a Single Page Application (SPA) that aggregates and normalizes movie/comic data from distributed sources to provide a seamless entertainment experience.",
     thumbnail: "/projects/movie-time.jpg", 
     technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "RESTful API", "Intersection Observer"],
-    github: "https://github.com/Neit272/movie-time-for-you", 
+    github: "https://github.com/Neit272/homemade-chill-time", 
     demo: "https://movie-time-for-you.vercel.app", 
   },
   {
@@ -97,7 +97,7 @@ export const projects = [
     description: "Developed an intuitive B2B corporate website and product showcase platform for a tire business, emphasizing diverse product catalog management and optimizing customer search experience.",
     thumbnail: "/projects/euroma.jpg",
     technologies: ["Next.js 15", "TypeScript", "Tailwind CSS", "Shadcn UI", "Strapi v5", "Cloudinary"],
-    github: "https://github.com/Neit272/Euroma-Tire",
+    github: null,
     demo: "https://euromatire.com", 
   },
 ];
