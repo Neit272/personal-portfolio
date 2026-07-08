@@ -100,4 +100,23 @@ export const projects = [
     github: null,
     demo: "https://euromatire.com", 
   },
+  {
+    id: 3,
+    title: "Chinese Learn",
+    description: "A modern mobile-first Chinese learning application. Features an interactive flashcard review session powered by the SM-2 spaced repetition algorithm, dynamic stroke order animations, dictionary search, and progress tracking statistics.",
+    thumbnail: "/projects/chinese-learn.jpg",
+    technologies: ["Next.js 16", "React 19", "Mantine 9", "Zustand", "Prisma", "PostgreSQL", "Tailwind CSS", "Framer Motion", "Hanzi Writer"],
+    github: "https://github.com/Neit272/chinese-learn",
+    demo: "https://chinese-learn-hehe.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Nexus HRM",
+    description: "An internal employee management and automated attendance platform. Implements location-based check-in via Geofencing GPS and network IP verification, structured request submission workflows, and a secure PDF document distribution mechanism protected by email-based 2FA.",
+    thumbnail: "/projects/nexus-hrm.jpg",
+    technologies: ["React 18", "Vite", "Tailwind CSS", "Express", "PostgreSQL", "Supabase", "Node.js", "JWT Auth", "Nodemailer"],
+    github: "https://github.com/Neit272/HRM-project",
+    demo: "https://employee-management-prj.vercel.app/",
+  },
 ];
+
