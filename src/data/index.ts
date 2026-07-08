@@ -25,6 +25,13 @@ export const education = [
 
 export const experience = [
   {
+    id: 3,
+    company: "Công ty TNHH GENX PK STORY",
+    role: "Freelance Lead Developer",
+    period: "May 2026 - Jul 2026",
+    description: "Assumed leadership responsibilities following a successful internship. Guided frontend development architecture, delegated tasks to junior developers, and collaborated directly with clients to refine business requirements and ensure high-quality software delivery.",
+  },
+  {
     id: 2,
     company: "Công ty TNHH GENX PK STORY",
     role: "Frontend Developer Intern",
