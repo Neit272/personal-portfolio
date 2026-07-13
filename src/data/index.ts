@@ -105,7 +105,7 @@ export const projects = [
     thumbnail: "/projects/euroma.jpg",
     technologies: ["Next.js 15", "TypeScript", "Tailwind CSS", "Shadcn UI", "Strapi v5", "Cloudinary"],
     github: null,
-    demo: "https://euromatire.com",
+    demo: null,
   },
   {
     id: 3,
