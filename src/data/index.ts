@@ -100,12 +100,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Euroma Tire",
-    description: "Developed an intuitive B2B corporate website and product showcase platform for a tire business, emphasizing diverse product catalog management and optimizing customer search experience.",
-    thumbnail: "/projects/euroma.jpg",
-    technologies: ["Next.js 15", "TypeScript", "Tailwind CSS", "Shadcn UI", "Strapi v5", "Cloudinary"],
+    title: "TerraTrack",
+    description: "Developed an intuitive B2B product showcase platform for agricultural, forestry, and off-road specialty tires, featuring dynamic catalog management via Strapi CMS, optimized image delivery via Cloudinary, and an interactive specifications comparison interface.",
+    thumbnail: "/projects/terratrack.jpg",
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind v4", "Shadcn UI", "Strapi v5", "Cloudinary", "Lightbox"],
     github: null,
-    demo: null,
+    demo: "https://terra-track-showcase.vercel.app/",
   },
   {
     id: 3,
